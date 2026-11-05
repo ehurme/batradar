@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+_targets/
+output/
+data-raw/
+cache/
+*.robj
+*.rds
+*.RData
+*.csv
