@@ -1,0 +1,34 @@
+Package: batradar
+Title: Compare Tracked Bat Migration with European Weather Radar Profiles
+Version: 0.1.0
+Authors@R: person("Edward", "Hurme", role = c("aut", "cre"), email = "edwardhurme@gmail.com")
+Description: Matches Sigfox-tracked migratory bats (move2 objects) to European
+    weather radar vertical profile time series (VPTS, via 'getRad'), summarises
+    radar migration per radar-night, extracts radar cells occupied by tagged
+    bats in flight, and quantifies agreement between radar- and tag-based
+    descriptions of migration: night-level detection, direction, flight
+    height, phenology, and weather-response models fitted to both data sets.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Depends: R (>= 4.1)
+Imports:
+    dplyr,
+    sf,
+    mgcv,
+    rlang,
+    stats,
+    tibble,
+    purrr,
+    cli
+Suggests:
+    getRad,
+    move2,
+    targets,
+    tarchetypes,
+    ggplot2,
+    testthat (>= 3.0.0),
+    withr
+Additional_repositories: https://aloftdata.r-universe.dev
+Config/testthat/edition: 3
