@@ -18,7 +18,7 @@ cfg <- list(
   # `bats_loc` (all fixes) as move2 objects. Override with an env variable.
   tracks_file = Sys.getenv(
     "BATRADAR_TRACKS",
-    "C:/Users/User/Dropbox/MPI/Noctule/Data/rdata/move_icarus_bats_noonroost_daily_20261102.robj"),
+    "../../../Dropbox/MPI/Noctule/Data/rdata/move_icarus_bats_noonroost_daily_20261102.robj"),
   out_dir     = "output",
   cache_dir   = "cache/vpts",
 
