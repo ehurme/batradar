@@ -1,0 +1,11 @@
+^dev$
+^\.Rproj\.user$
+^renv$
+^renv\.lock$
+^_targets$
+^_targets\.R$
+^data-raw$
+^output$
+^analysis$
+^README\.md$
+^cache$
